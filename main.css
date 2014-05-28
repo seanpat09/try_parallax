@@ -1,0 +1,64 @@
+body{
+	background: #fff;
+	padding: 0;
+	margin: 0;
+	background: url(http://subtlepatterns.com/patterns/textured_paper.png);
+	font-family: 'Oxygen', sans-serif;
+}
+#box{
+	width: 800px;
+	height: 850px;
+	margin: 60px auto;
+	background: #fff;
+	overflow: scroll;
+	font-weight: 300;
+	border: 1px solid rgba(0,0,0,.25);
+	box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	border-radius: 3px;
+	position: relative;
+	line-height: 130%;
+}
+#box img{
+	width: 800px;
+	position: relative;
+	top: 0;
+}
+#box div{
+	padding: 20px;
+	background: #f0f0f0;
+	position: relative;
+}
+#box div h2{
+	padding: 0;
+	margin: 0;
+}
+
+#balloons {
+	width: 10000px;
+	height: 600px;
+	margin: 30px auto;
+	position: relative;
+}
+.circle {
+	border-radius: 50%;
+	box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	background: red;
+	float:left;
+	position:relative;
+	margin: 50px 20px;
+}
+
+.small {
+	width: 50px;
+	height: 50px;
+}
+
+.medium {
+	width: 100px;
+	height: 100px;
+}
+
+.large {
+	width: 150px;
+	height: 150px;
+}

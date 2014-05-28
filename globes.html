@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Driving Down the Road</title>
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='car.css' rel='stylesheet' type='text/css'>
+		<script>
+			$(document).ready( function(){
+				$(this).scroll( function() {
+					s = $(this).scrollLeft();
+					$(".outer").css("-webkit-transform","translateX(" + (s/1.2) + "px)");
+					$(".mountains").css("-webkit-transform","translateX(" + (s/1.8) + "px)");
+					$(".inner").css("-webkit-transform","translateX(" + (s/1) + "px)");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="circle outer"></div>
+		<table class="mountains">
+			<tr>
+				<td>
+					<div id="mountain"></div>
+				</td>
+				<td>
+					<div id="mountain"></div>
+				</td>
+				<td>
+					<div id="mountain"></div>
+				</td>
+				<td>
+					<div id="mountain"></div>
+				</td>
+				<td>
+					<div id="mountain"></div>
+				</td>
+				<td>
+					<div id="mountain"></div>
+				</td>
+				<td>
+					<div id="mountain"></div>
+				</td>
+			</tr>
+		</table>
+		<table class="lampPosts">
+			<tr>
+				<td>
+					<div id="lampPost"></div>
+				</td>
+				<td>
+					<div id="lampPost"></div>
+				</td>
+				<td>
+					<div id="lampPost"></div>
+				</td>
+				<td>
+					<div id="lampPost"></div>
+				</td>
+				<td>
+					<div id="lampPost"></div>
+				</td>
+				<td>
+					<div id="lampPost"></div>
+				</td>
+				<td>
+					<div id="lampPost"></div>
+				</td>
+				<td>
+					<div id="lampPost"></div>
+				</td>
+			</tr>
+		</table>
+		<section id="car">
+			<div class="circle inner"></div>
+		</section>
+		<section id="road">
+			<div id="line"></div>
+		</section>
+	</body>
+
+</html>

@@ -1,0 +1,89 @@
+body{
+	background: #87CEEB;
+	padding: 0;
+	margin: 0;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#road{
+	background: url(http://subtlepatterns.com/patterns/debut_dark.png);
+	height: 150px;
+	width: 10000px;
+	bottom: 0px;
+	position: absolute;
+}
+
+#line {
+	height: 10px;
+	width: auto;
+	background: url('line.png') repeat-x;
+	margin: 75px 20px;
+}
+#balloons {
+	width: 10000px;
+	height: 600px;
+	margin: 30px auto;
+	position: relative;
+}
+.circle {
+	border-radius: 50%;
+	box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	float:left;
+	position:relative;
+	margin: 50px 20px;
+}
+
+.small {
+	width: 50px;
+	height: 50px;
+}
+
+.inner {
+	width: 44px;
+	height: 44px;
+	background: white;
+}
+
+.outer {
+	width: 66px;
+	height: 66px;
+	background: yellow;
+	float: right;
+}
+.mountains{
+	position:absolute;
+	bottom: 140px;
+	z-index: -2;
+}
+	
+#mountain{
+	 height:150px;
+	 width:500px;
+         border-radius: 90px 90px 0 0;
+	 box-shadow: 0 2px 6px rgba(0,0,0,.2);
+         -moz-border-radius: 90px 90px 0 0;
+         -webkit-border-radius: 90px 90px 0 0;
+         background:green;
+	 margin:-40px;
+ }
+ #car{
+	 bottom:40px;
+	 position:absolute;
+	 z-index: 1;
+ }
+
+.lampPosts{
+	position:absolute;
+	bottom: 140px;
+}
+
+#lampPost {
+	 height:150px;
+	 width:10px;
+         border-radius: 90px 90px 0 0;
+	 box-shadow: 0 2px 6px rgba(0,0,0,.2);
+         -moz-border-radius: 90px 90px 0 0;
+         -webkit-border-radius: 90px 90px 0 0;
+         background:brown;
+	 margin-left: 800px;
+}
